@@ -1,0 +1,14 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "overused-font",
+        "value": "geist",
+        "createdAt": "2026-10-31T09:18:12.337Z",
+        "reason": "Presence — Gym Retention Platform.html design system explicitly specifies Geist and Geist Mono as the canonical typefaces"
+      }
+    ]
+  }
+}

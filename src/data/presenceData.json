@@ -1,0 +1,328 @@
+{
+  "gym": {
+    "name": "Iron Works Fitness",
+    "ownerName": "Aarav Mehta",
+    "ownerInitials": "AM",
+    "phone": "+91 98100 00000",
+    "timezone": "Asia/Kolkata (UTC+05:30)",
+    "timezones": [
+      "Asia/Kolkata (UTC+05:30)",
+      "Asia/Dubai (UTC+04:00)",
+      "Europe/London (UTC+00:00)"
+    ],
+    "address": "[GYM ADDRESS]",
+    "currentDateLabel": "Friday, 30 October",
+    "openDays": [true, true, true, true, true, true, false],
+    "closures": [],
+    "inactivityThreshold": 10,
+    "qrLifetime": 45
+  },
+  "overview": {
+    "stats": [
+      { "label": "Active memberships", "value": "371", "highlight": false },
+      { "label": "Checked in today", "value": "143", "highlight": false },
+      { "label": "Expiring in 14 days", "value": "23", "highlight": false },
+      { "label": "Attendance dropping", "value": "9", "highlight": false },
+      { "label": "No visit in 10+ days", "value": "17", "highlight": false },
+      { "label": "Re-engaged this month", "value": "12", "highlight": true }
+    ],
+    "rangeLabels": {
+      "7": ["24 Oct", "27 Oct", "30 Oct"],
+      "30": ["1 Oct", "15 Oct", "30 Oct"],
+      "90": ["3 Aug", "14 Sep", "30 Oct"]
+    },
+    "dropping": [
+      { "name": "Rahul Bhatt", "meta": "Visits fell from 5 to 1 a week" },
+      { "name": "Sneha Kulkarni", "meta": "Visits fell from 4 to 1 a week" },
+      { "name": "Manish Gupta", "meta": "Visits fell from 5 to 2 a week" },
+      { "name": "Aditya Rao", "meta": "Visits fell from 3 to 1 a week" }
+    ],
+    "followups": [
+      { "name": "Rohan Kapoor", "meta": "20 days · last seen 6 Oct", "status": "Contact pending", "dot": "background:#222831" },
+      { "name": "Ananya Iyer", "meta": "18 days · last seen 8 Oct", "status": "Contacted", "dot": "background:#00ADB5" },
+      { "name": "Vikram Singh", "meta": "17 days · last seen 9 Oct", "status": "Contact pending", "dot": "background:#222831" },
+      { "name": "Meera Nair", "meta": "15 days · last seen 12 Oct", "status": "Interested", "dot": "background:#00747A" },
+      { "name": "Kabir Malhotra", "meta": "14 days · last seen 13 Oct", "status": "Contact pending", "dot": "background:#222831" }
+    ],
+    "expiring": [
+      { "name": "Sana Qureshi", "date": "02 Nov" },
+      { "name": "Dev Arora", "date": "04 Nov" },
+      { "name": "Isha Bansal", "date": "06 Nov" },
+      { "name": "Harsh Verma", "date": "09 Nov" }
+    ]
+  },
+  "attendance": {
+    "checkedInCount": 143,
+    "qrCycleSeconds": 30,
+    "initialSecondsRemaining": 24,
+    "initialSeed": 3,
+    "recentCheckIns": [
+      { "name": "Aisha Khan", "time": "6:41 PM" },
+      { "name": "Karan Bedi", "time": "6:38 PM" },
+      { "name": "Zoya Hussain", "time": "6:36 PM" },
+      { "name": "Aditya Rao", "time": "6:31 PM" },
+      { "name": "Ritika Sen", "time": "6:29 PM" },
+      { "name": "Manish Gupta", "time": "6:24 PM" },
+      { "name": "Sneha Kulkarni", "time": "6:20 PM" },
+      { "name": "Omar Farooq", "time": "6:17 PM" },
+      { "name": "Tara Bhatia", "time": "6:12 PM" },
+      { "name": "Rahul Nambiar", "time": "6:09 PM" }
+    ]
+  },
+  "members": {
+    "totalRegistered": 412,
+    "statusCounts": {
+      "all": 412,
+      "active": 371,
+      "expiring": 23,
+      "suspended": 6,
+      "expired": 18
+    },
+    "statusMeta": {
+      "active": { "label": "Active", "dot": "background:#00ADB5" },
+      "expiring": { "label": "Expiring soon", "dot": "background:#fff;box-shadow:inset 0 0 0 2px #00747A" },
+      "suspended": { "label": "Suspended", "dot": "background:#5A616B" },
+      "expired": { "label": "Expired", "dot": "background:#fff;box-shadow:inset 0 0 0 2px #222831" }
+    },
+    "pages": [
+      [
+        { "id": "m-1", "name": "Priya Sharma", "phone": "+91 98101 20034", "email": "priya.sharma@example.com", "expires": "14 Mar 2027", "lastVisit": "29 Oct", "status": "active" },
+        { "id": "m-2", "name": "Aisha Khan", "phone": "+91 98102 11876", "email": "aisha.khan@example.com", "expires": "02 Feb 2027", "lastVisit": "30 Oct", "status": "active" },
+        { "id": "m-3", "name": "Karan Bedi", "phone": "+91 98103 45120", "email": "karan.bedi@example.com", "expires": "18 Jan 2027", "lastVisit": "30 Oct", "status": "active" },
+        { "id": "m-4", "name": "Sana Qureshi", "phone": "+91 98104 77231", "email": "sana.qureshi@example.com", "expires": "02 Nov 2026", "lastVisit": "29 Oct", "status": "expiring" },
+        { "id": "m-5", "name": "Dev Arora", "phone": "+91 98105 33902", "email": "dev.arora@example.com", "expires": "04 Nov 2026", "lastVisit": "28 Oct", "status": "expiring" },
+        { "id": "m-6", "name": "Isha Bansal", "phone": "+91 98106 90415", "email": "isha.bansal@example.com", "expires": "06 Nov 2026", "lastVisit": "29 Oct", "status": "expiring" },
+        { "id": "m-7", "name": "Rohan Kapoor", "phone": "+91 98107 18843", "email": "rohan.kapoor@example.com", "expires": "18 Dec 2026", "lastVisit": "6 Oct", "status": "active" },
+        { "id": "m-8", "name": "Tanvi Desai", "phone": "+91 98108 62057", "email": "tanvi.desai@example.com", "expires": "12 Mar 2027", "lastVisit": "14 Oct", "status": "suspended" },
+        { "id": "m-9", "name": "Omar Farooq", "phone": "+91 98109 24418", "email": "omar.farooq@example.com", "expires": "12 Oct 2026", "lastVisit": "11 Oct", "status": "expired" },
+        { "id": "m-10", "name": "Zoya Hussain", "phone": "+91 98110 58632", "email": "zoya.hussain@example.com", "expires": "30 Jan 2027", "lastVisit": "30 Oct", "status": "active" }
+      ],
+      [
+        { "id": "m-11", "name": "Nikhil Rao", "phone": "+91 98112 83390", "email": "nikhil.rao@example.com", "expires": "11 Nov 2026", "lastVisit": "28 Oct", "status": "expiring" },
+        { "id": "m-12", "name": "Jiya Kapoor", "phone": "+91 98113 25518", "email": "jiya.kapoor@example.com", "expires": "12 Nov 2026", "lastVisit": "29 Oct", "status": "expiring" },
+        { "id": "m-13", "name": "Reema Dutta", "phone": "+91 98114 61729", "email": "reema.dutta@example.com", "expires": "28 Sep 2026", "lastVisit": "27 Sep", "status": "expired" },
+        { "id": "m-14", "name": "Ajay Menon", "phone": "+91 98115 07344", "email": "ajay.menon@example.com", "expires": "15 Sep 2026", "lastVisit": "14 Sep", "status": "expired" },
+        { "id": "m-15", "name": "Rahul Nambiar", "phone": "+91 98117 50163", "email": "rahul.nambiar@example.com", "expires": "04 Jan 2027", "lastVisit": "30 Oct", "status": "suspended" },
+        { "id": "m-16", "name": "Pooja Shetty", "phone": "+91 98118 38824", "email": "pooja.shetty@example.com", "expires": "19 Feb 2027", "lastVisit": "16 Oct", "status": "suspended" },
+        { "id": "m-17", "name": "Neha Verma", "phone": "+91 98119 44021", "email": "neha.verma@example.com", "expires": "21 Dec 2026", "lastVisit": "30 Oct", "status": "active" },
+        { "id": "m-18", "name": "Arjun Reddy", "phone": "+91 98120 17765", "email": "arjun.reddy@example.com", "expires": "09 Jan 2027", "lastVisit": "29 Oct", "status": "active" },
+        { "id": "m-19", "name": "Divya Menon", "phone": "+91 98121 90352", "email": "divya.menon@example.com", "expires": "25 Feb 2027", "lastVisit": "30 Oct", "status": "active" },
+        { "id": "m-20", "name": "Yash Chawla", "phone": "+91 98122 66814", "email": "yash.chawla@example.com", "expires": "14 Dec 2026", "lastVisit": "17 Oct", "status": "active" }
+      ]
+    ]
+  },
+  "retention": {
+    "categoryTotals": {
+      "inactive": 17,
+      "dropped": 9,
+      "expiring": 23,
+      "away": 5,
+      "returned": 12
+    },
+    "situations": {
+      "inactive": { "label": "No visit in 10+ days", "action": "Contact member", "dot": "background:#222831" },
+      "dropped": { "label": "Attendance dropped", "action": "Check in with member", "dot": "background:#fff;box-shadow:inset 0 0 0 2px #00ADB5" },
+      "expiring": { "label": "Expires soon", "action": "Send renewal reminder", "dot": "background:#fff;box-shadow:inset 0 0 0 2px #00747A" },
+      "away": { "label": "Away · own request", "action": "Follow up on their date", "dot": "background:#5A616B" },
+      "returned": { "label": "Returned", "action": "Close alert", "dot": "background:#00ADB5" }
+    },
+    "items": [
+      { "id": 0, "name": "Rohan Kapoor", "sit": "inactive", "line": "20 days since last visit (6 Oct)", "weeks": [4, 4, 3, 4, 2, 0, 0, 0], "next": "", "done": false, "closed": false, "phone": "+91 98200 20000", "notes": [] },
+      { "id": 1, "name": "Ananya Iyer", "sit": "inactive", "line": "18 days since last visit (8 Oct)", "weeks": [3, 4, 3, 3, 2, 0, 0, 0], "next": "", "done": false, "closed": false, "phone": "+91 98209 20731", "notes": [{ "when": "28 Oct, 6:10 PM", "who": "Aarav", "text": "Called. Travelling for work, back next week." }] },
+      { "id": 2, "name": "Vikram Singh", "sit": "inactive", "line": "17 days since last visit (9 Oct)", "weeks": [5, 4, 4, 3, 3, 0, 0, 0], "next": "", "done": false, "closed": false, "phone": "+91 98218 21462", "notes": [] },
+      { "id": 3, "name": "Meera Nair", "sit": "inactive", "line": "15 days since last visit (12 Oct)", "weeks": [3, 3, 4, 3, 3, 1, 0, 0], "next": "", "done": false, "closed": false, "phone": "+91 98227 22193", "notes": [] },
+      { "id": 4, "name": "Kabir Malhotra", "sit": "inactive", "line": "14 days since last visit (13 Oct)", "weeks": [4, 3, 3, 4, 3, 2, 0, 0], "next": "", "done": false, "closed": false, "phone": "+91 98236 22924", "notes": [] },
+      { "id": 5, "name": "Rahul Bhatt", "sit": "dropped", "line": "Visits fell from 5 to 1 a week", "weeks": [5, 5, 5, 4, 5, 3, 1, 1], "next": "", "done": false, "closed": false, "phone": "+91 98245 23655", "notes": [{ "when": "27 Oct, 7:20 PM", "who": "Aarav", "text": "Said work has been heavy. Offered a lighter schedule." }] },
+      { "id": 6, "name": "Sneha Kulkarni", "sit": "dropped", "line": "Visits fell from 4 to 1 a week", "weeks": [4, 4, 3, 4, 4, 2, 1, 1], "next": "", "done": false, "closed": false, "phone": "+91 98254 24386", "notes": [] },
+      { "id": 7, "name": "Manish Gupta", "sit": "dropped", "line": "Visits fell from 5 to 2 a week", "weeks": [5, 4, 5, 5, 4, 3, 2, 2], "next": "", "done": false, "closed": false, "phone": "+91 98263 25117", "notes": [] },
+      { "id": 8, "name": "Aditya Rao", "sit": "dropped", "line": "Visits fell from 3 to 1 a week", "weeks": [3, 3, 3, 3, 2, 1, 1, 1], "next": "", "done": false, "closed": false, "phone": "+91 98272 25848", "notes": [] },
+      { "id": 9, "name": "Sana Qureshi", "sit": "expiring", "line": "Expires 2 Nov · visits 4 a week", "weeks": [4, 4, 5, 4, 4, 4, 4, 4], "next": "2026-11-02", "done": false, "closed": false, "phone": "+91 98281 26579", "notes": [] },
+      { "id": 10, "name": "Dev Arora", "sit": "expiring", "line": "Expires 4 Nov · visits 3 a week", "weeks": [3, 3, 3, 4, 3, 3, 3, 3], "next": "2026-11-04", "done": false, "closed": false, "phone": "+91 98290 27310", "notes": [] },
+      { "id": 11, "name": "Isha Bansal", "sit": "expiring", "line": "Expires 6 Nov · visits 2 a week", "weeks": [2, 3, 2, 2, 2, 2, 2, 2], "next": "2026-11-06", "done": false, "closed": false, "phone": "+91 98299 28041", "notes": [] },
+      { "id": 12, "name": "Tanvi Desai", "sit": "away", "line": "Injured · asked to be contacted on 10 Nov", "weeks": [4, 4, 5, 4, 3, 0, 0, 0], "next": "2026-11-10", "done": false, "closed": false, "phone": "+91 98308 28772", "notes": [{ "when": "26 Oct, 5:05 PM", "who": "Aarav", "text": "Knee injury. Prefers a call after the 10th, not before." }] },
+      { "id": 13, "name": "Arjun Reddy", "sit": "away", "line": "Travelling · back around 4 Nov", "weeks": [3, 4, 3, 4, 3, 2, 0, 0], "next": "2026-11-04", "done": false, "closed": false, "phone": "+91 98317 29503", "notes": [] },
+      { "id": 14, "name": "Neil D’Souza", "sit": "away", "line": "Travelling · asked to be contacted on 8 Nov", "weeks": [3, 3, 4, 3, 3, 1, 0, 0], "next": "2026-11-08", "done": false, "closed": false, "phone": "+91 98326 30234", "notes": [] },
+      { "id": 15, "name": "Kavya Sethi", "sit": "returned", "line": "Visited again on 29 Oct after 12 days away", "weeks": [4, 4, 4, 3, 0, 0, 0, 2], "next": "", "done": false, "closed": false, "phone": "+91 98335 30965", "notes": [] },
+      { "id": 16, "name": "Zubin Irani", "sit": "returned", "line": "Visited again on 30 Oct", "weeks": [3, 3, 4, 0, 0, 0, 1, 2], "next": "", "done": false, "closed": false, "phone": "+91 98344 31696", "notes": [] },
+      { "id": 17, "name": "Maya Nanda", "sit": "returned", "line": "Visited again on 28 Oct", "weeks": [4, 3, 4, 3, 0, 0, 1, 2], "next": "", "done": false, "closed": false, "phone": "+91 98353 32427", "notes": [] }
+    ]
+  },
+  "inactiveMembers": {
+    "statusMeta": {
+      "pending": { "label": "Contact pending", "dot": "background:#222831" },
+      "contacted": { "label": "Contacted", "dot": "background:#00ADB5" },
+      "interested": { "label": "Interested", "dot": "background:#00747A" },
+      "issue": { "label": "Membership issue", "dot": "background:#fff;box-shadow:inset 0 0 0 2px #222831" },
+      "notint": { "label": "Not interested", "dot": "background:#5A616B" },
+      "resolved": { "label": "Resolved", "dot": "background:#fff;box-shadow:inset 0 0 0 2px #00ADB5" }
+    },
+    "members": [
+      { "id": 0, "name": "Rohan Kapoor", "last": "6 Oct", "days": 20, "status": "pending", "phone": "+91 98100 10000", "email": "rohan.kapoor@example.com", "expiry": "18 Dec 2026", "next": "", "notes": [] },
+      { "id": 1, "name": "Ananya Iyer", "last": "8 Oct", "days": 18, "status": "contacted", "phone": "+91 98107 10913", "email": "ananya.iyer@example.com", "expiry": "09 Jan 2027", "next": "2026-11-02", "notes": [{ "when": "28 Oct, 6:10 PM", "who": "Aarav", "text": "Called. Travelling for work, back next week." }, { "when": "24 Oct, 11:30 AM", "who": "Aarav", "text": "No answer. Left a WhatsApp message." }] },
+      { "id": 2, "name": "Vikram Singh", "last": "9 Oct", "days": 17, "status": "pending", "phone": "+91 98114 11826", "email": "vikram.singh@example.com", "expiry": "22 Nov 2026", "next": "", "notes": [] },
+      { "id": 3, "name": "Meera Nair", "last": "12 Oct", "days": 15, "status": "interested", "phone": "+91 98121 12739", "email": "meera.nair@example.com", "expiry": "15 Feb 2027", "next": "2026-11-01", "notes": [{ "when": "29 Oct, 5:45 PM", "who": "Aarav", "text": "Wants to restart on Monday morning." }] },
+      { "id": 4, "name": "Kabir Malhotra", "last": "13 Oct", "days": 14, "status": "pending", "phone": "+91 98128 13652", "email": "kabir.malhotra@example.com", "expiry": "30 Nov 2026", "next": "", "notes": [] },
+      { "id": 5, "name": "Tanvi Desai", "last": "14 Oct", "days": 13, "status": "issue", "phone": "+91 98135 14565", "email": "tanvi.desai@example.com", "expiry": "12 Mar 2027", "next": "2026-11-03", "notes": [{ "when": "27 Oct, 7:20 PM", "who": "Aarav", "text": "Asked about pausing the membership for a month." }] },
+      { "id": 6, "name": "Arjun Reddy", "last": "15 Oct", "days": 12, "status": "contacted", "phone": "+91 98142 15478", "email": "arjun.reddy@example.com", "expiry": "18 Dec 2026", "next": "2026-11-04", "notes": [] },
+      { "id": 7, "name": "Nisha Pillai", "last": "15 Oct", "days": 12, "status": "pending", "phone": "+91 98149 16391", "email": "nisha.pillai@example.com", "expiry": "09 Jan 2027", "next": "", "notes": [] },
+      { "id": 8, "name": "Sameer Khan", "last": "16 Oct", "days": 11, "status": "pending", "phone": "+91 98156 17304", "email": "sameer.khan@example.com", "expiry": "22 Nov 2026", "next": "", "notes": [] },
+      { "id": 9, "name": "Pooja Shetty", "last": "16 Oct", "days": 11, "status": "interested", "phone": "+91 98163 18217", "email": "pooja.shetty@example.com", "expiry": "15 Feb 2027", "next": "2026-11-02", "notes": [] },
+      { "id": 10, "name": "Imran Sheikh", "last": "16 Oct", "days": 11, "status": "issue", "phone": "+91 98170 19130", "email": "imran.sheikh@example.com", "expiry": "30 Nov 2026", "next": "2026-11-05", "notes": [] },
+      { "id": 11, "name": "Divya Menon", "last": "17 Oct", "days": 10, "status": "contacted", "phone": "+91 98177 20043", "email": "divya.menon@example.com", "expiry": "12 Mar 2027", "next": "2026-11-03", "notes": [] },
+      { "id": 12, "name": "Gaurav Joshi", "last": "17 Oct", "days": 10, "status": "pending", "phone": "+91 98184 20956", "email": "gaurav.joshi@example.com", "expiry": "18 Dec 2026", "next": "", "notes": [] },
+      { "id": 13, "name": "Lakshmi Rao", "last": "17 Oct", "days": 10, "status": "pending", "phone": "+91 98191 21869", "email": "lakshmi.rao@example.com", "expiry": "09 Jan 2027", "next": "", "notes": [] },
+      { "id": 14, "name": "Neil D’Souza", "last": "17 Oct", "days": 10, "status": "contacted", "phone": "+91 98198 22782", "email": "neil.dsouza@example.com", "expiry": "22 Nov 2026", "next": "2026-11-04", "notes": [] },
+      { "id": 15, "name": "Farah Ali", "last": "17 Oct", "days": 10, "status": "pending", "phone": "+91 98205 23695", "email": "farah.ali@example.com", "expiry": "15 Feb 2027", "next": "", "notes": [] },
+      { "id": 16, "name": "Yash Chawla", "last": "17 Oct", "days": 10, "status": "pending", "phone": "+91 98212 24608", "email": "yash.chawla@example.com", "expiry": "30 Nov 2026", "next": "", "notes": [] }
+    ]
+  },
+  "memberships": {
+    "totals": [
+      { "label": "Active", "value": "371" },
+      { "label": "Expiring in 14 days", "value": "23" },
+      { "label": "Expired", "value": "18" },
+      { "label": "Suspended", "value": "6" },
+      { "label": "Archived", "value": "17" }
+    ],
+    "groups": {
+      "expiring": {
+        "label": "Expiring in 14 days",
+        "col": "Days left",
+        "count": 23,
+        "rows": [
+          { "name": "Sana Qureshi", "phone": "+91 98104 77231", "start": "03 Nov 2025", "end": "02 Nov 2026", "note": "3 days", "paid": false },
+          { "name": "Dev Arora", "phone": "+91 98105 33902", "start": "05 Nov 2025", "end": "04 Nov 2026", "note": "5 days", "paid": false },
+          { "name": "Isha Bansal", "phone": "+91 98106 90415", "start": "07 Nov 2025", "end": "06 Nov 2026", "note": "7 days", "paid": false },
+          { "name": "Harsh Verma", "phone": "+91 98111 40276", "start": "10 Nov 2025", "end": "09 Nov 2026", "note": "10 days", "paid": false },
+          { "name": "Nikhil Rao", "phone": "+91 98112 83390", "start": "12 Nov 2025", "end": "11 Nov 2026", "note": "12 days", "paid": false },
+          { "name": "Jiya Kapoor", "phone": "+91 98113 25518", "start": "13 Nov 2025", "end": "12 Nov 2026", "note": "13 days", "paid": false }
+        ]
+      },
+      "expired": {
+        "label": "Expired",
+        "col": "Expired",
+        "count": 18,
+        "rows": [
+          { "name": "Omar Farooq", "phone": "+91 98109 24418", "start": "12 Oct 2025", "end": "12 Oct 2026", "note": "18 days ago", "paid": false },
+          { "name": "Reema Dutta", "phone": "+91 98114 61729", "start": "28 Sep 2025", "end": "28 Sep 2026", "note": "32 days ago", "paid": false },
+          { "name": "Ajay Menon", "phone": "+91 98115 07344", "start": "15 Sep 2025", "end": "15 Sep 2026", "note": "45 days ago", "paid": false },
+          { "name": "Leena Joseph", "phone": "+91 98116 92081", "start": "01 Sep 2025", "end": "01 Sep 2026", "note": "59 days ago", "paid": false }
+        ]
+      },
+      "suspended": {
+        "label": "Suspended",
+        "col": "Resumes",
+        "count": 6,
+        "rows": [
+          { "name": "Tanvi Desai", "phone": "+91 98108 62057", "start": "12 Mar 2026", "end": "12 Mar 2027", "note": "15 Nov 2026", "paid": false },
+          { "name": "Rahul Nambiar", "phone": "+91 98117 50163", "start": "04 Jan 2026", "end": "04 Jan 2027", "note": "08 Nov 2026", "paid": false },
+          { "name": "Pooja Shetty", "phone": "+91 98118 38824", "start": "19 Feb 2026", "end": "19 Feb 2027", "note": "20 Nov 2026", "paid": false }
+        ]
+      }
+    }
+  },
+  "analytics": {
+    "octoberStats": [
+      { "label": "Became inactive", "value": "38", "highlight": false },
+      { "label": "Contacted", "value": "31", "highlight": false },
+      { "label": "Returned", "value": "12", "highlight": true },
+      { "label": "Memberships expired", "value": "18", "highlight": false },
+      { "label": "Days from alert to first follow-up", "value": "2", "highlight": false }
+    ],
+    "ranges": [
+      {
+        "key": 4,
+        "label": "4W",
+        "sub": "Last 4 weeks · 5 Oct to 30 Oct",
+        "xl": { "a": "5 Oct", "b": "18 Oct", "c": "26 Oct" }
+      },
+      {
+        "key": 13,
+        "label": "13W",
+        "sub": "Last 13 weeks · 3 Aug to 30 Oct",
+        "xl": { "a": "3 Aug", "b": "14 Sep", "c": "26 Oct" }
+      },
+      {
+        "key": 52,
+        "label": "1Y",
+        "sub": "Last 12 months · Nov 2025 to 30 Oct",
+        "xl": { "a": "Nov 2025", "b": "May 2026", "c": "26 Oct" }
+      }
+    ],
+    "decliningGroups": [
+      { "name": "Evening batch, 5 to 9 PM", "n": "5", "w": "100%" },
+      { "name": "Joined in the last 60 days", "n": "3", "w": "60%" },
+      { "name": "3-month plan", "n": "3", "w": "60%" },
+      { "name": "Morning batch, 6 to 9 AM", "n": "1", "w": "20%" }
+    ]
+  },
+  "staff": [
+    {
+      "id": "staff-1",
+      "name": "Neha Rao",
+      "permissions": "QR display, notes, today’s attendance",
+      "status": "Active"
+    },
+    {
+      "id": "staff-2",
+      "name": "Imran Sheikh",
+      "permissions": "View members only",
+      "status": "Invited"
+    }
+  ],
+  "legal": {
+    "lastUpdated": "Last updated 30 October 2026 · Draft for legal review",
+    "privacySections": [
+      {
+        "title": "What we collect",
+        "body": "Your name, email and phone number; your membership dates; the date and time of each QR check-in; the weekly workout plan you write; and follow-up notes your gym records when you have been away."
+      },
+      {
+        "title": "What we do not collect",
+        "body": "Your location, biometrics or payment card details. The camera is used only while you are scanning the gym QR code, and only after you allow it. No images are stored."
+      },
+      {
+        "title": "Who can see it",
+        "body": "Your gym’s owner and staff they authorise can see your contact details and attendance. Other members cannot. Your workout plan is visible only to you. Each gym’s data is kept separate from every other gym."
+      },
+      {
+        "title": "How we use it",
+        "body": "To record attendance, show your history and streaks, and help your gym reach out if you have stopped visiting. We do not send automated marketing messages. Any contact is made by a person at your gym."
+      },
+      {
+        "title": "Keeping and deleting data",
+        "body": "When a membership is archived, attendance records are kept for reporting and audit for [RETENTION PERIOD]. To correct or delete your data, write to [CONTACT EMAIL]."
+      },
+      {
+        "title": "Security",
+        "body": "All traffic uses HTTPS. Sign-in codes and session tokens are stored hashed, and every request is checked against your gym and role."
+      }
+    ],
+    "termsSections": [
+      {
+        "title": "Accounts",
+        "body": "Gym owners register a gym and invite members. Members join by invitation only. Keep your sign-in details private; activity on your account is your responsibility."
+      },
+      {
+        "title": "Attendance",
+        "body": "Check-in uses a QR code that changes every 30 to 60 seconds. Attendance is recorded only after our servers confirm it. A rotating code stops old screenshots from working, but it cannot stop someone sharing the live code. Checking in for another person is not allowed, and gyms may correct records."
+      },
+      {
+        "title": "Gym owner duties",
+        "body": "Owners are responsible for the accuracy of membership dates, for having members’ consent to be contacted, and for using contact details only to follow up on membership and attendance."
+      },
+      {
+        "title": "What the service is not",
+        "body": "Presence does not take payments, give medical or fitness advice, or promise that members will return. Workout plans are personal notes, not professional guidance."
+      },
+      {
+        "title": "Changes and suspension",
+        "body": "We may update the service and these terms; material changes will be announced in the app. We may suspend accounts that break these terms or put other users’ data at risk."
+      },
+      {
+        "title": "Liability and law",
+        "body": "Liability is limited as permitted by law: [LIABILITY CLAUSE]. These terms are governed by the laws of [GOVERNING LAW / JURISDICTION]. Questions: [CONTACT EMAIL]."
+      }
+    ]
+  }
+}

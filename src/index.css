@@ -1,0 +1,111 @@
+:root {
+  --ink: #222831;
+  --graphite: #393E46;
+  --teal: #00ADB5;
+  --deep: #00747A;
+  --mist: #EEEEEE;
+  --muted: #5A616B;
+  --paper: #FFFFFF;
+  --line: rgba(34, 40, 49, 0.12);
+  --line-strong: rgba(34, 40, 49, 0.14);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--mist);
+  color: var(--ink);
+  font-family: 'Geist', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+:focus-visible {
+  outline: 2px solid #00747A;
+  outline-offset: 2px;
+}
+
+.btn-ink,
+.btn-teal,
+.btn-line,
+.ni,
+.ti,
+.chip,
+.row,
+.lnk {
+  transition:
+    background-color 0.15s ease-out,
+    color 0.15s ease-out,
+    box-shadow 0.15s ease-out,
+    transform 0.1s ease-out;
+}
+
+.btn-ink:hover {
+  background: #393E46 !important;
+}
+
+.btn-teal:hover {
+  box-shadow: inset 0 0 0 999px rgba(255, 255, 255, 0.14);
+}
+
+.btn-line:hover {
+  background: rgba(34, 40, 49, 0.06);
+}
+
+.btn-ink:active,
+.btn-teal:active,
+.btn-line:active {
+  transform: scale(0.98);
+}
+
+.ni:hover {
+  background: rgba(238, 238, 238, 0.08);
+  color: #fff !important;
+}
+
+.ti:hover {
+  background: rgba(34, 40, 49, 0.06);
+}
+
+.row:hover {
+  background: rgba(34, 40, 49, 0.04);
+}
+
+.lnk:hover {
+  color: #00747A;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+    animation: none !important;
+  }
+}
